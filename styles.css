@@ -6,9 +6,7 @@ box-sizing: border-box;
 }
 
 body{
-background:  url('https://picsum.photos/1920/1080');
-max-width: 600px;
-min-height:400px ;
+background:blue;
 background-size: cover;
 display: flex;
 justify-content: center;
@@ -137,14 +135,6 @@ color: blue;
 h1{
    margin-top: 10px;
 }
-@media  screen and (min-width: 600px)  {
-body{
-   min-height:400px ;
-background-position: center;
-background-size: cover;
-
-
-}
 
 
 
@@ -157,4 +147,6 @@ background-size: cover;
 
 
 
-}
+
+
+
