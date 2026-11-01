@@ -9,6 +9,7 @@ const machineScore=document.querySelector('#machine-score')
 let HumanScoreNumber = 0
 let machineScoreNumber = 0
 
+
 const playHumano = (humanoChoise) => {
 playTheGame(humanoChoise, playMachine())
    
