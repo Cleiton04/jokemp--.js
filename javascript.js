@@ -18,20 +18,22 @@ playTheGame(humanoChoise, playMachine())
 
 
 const playMachine = () => {
-    const choyses = ['rock', 'paper', 'scissors']
+     const choyses =['rock', 'paper', 'scissors']
     const radowNumber = Math.floor(Math.random() * 3)
 
 
-    return choyses[radowNumber]
+    
 
-
+return choyses[radowNumber]
 
 }
+
+
 
 const playTheGame = (human, machine) => {
 
     if (human === machine) {
-        result.innerHTML = 'Empatou'
+result.innerHTML ='🤝 Empatou!';
 
 
 
@@ -40,15 +42,15 @@ const playTheGame = (human, machine) => {
 HumanScoreNumber++
 HumanScore.innerHTML= HumanScoreNumber
             
-        result.innerHTML = ' você ganhou!'
-
+        result.innerHTML='🎉você é o ganhador'
+HumanScoreNumber++;
     } else {
 machineScoreNumber++
 machineScore.innerHTML= machineScoreNumber
-        result.innerHTML = ' alexa ganhou!'
+        result.innerHTML = '💻 A alexa ganhou!'
     
     }
 
 
 
-}
+    }
